@@ -1,6 +1,6 @@
 require('./support');
-var ACL = require('../').ACL;
-var loopback = require('../');
+var ACL = require('.').ACL;
+var loopback = require('.');
 
 describe('Model', function() {
 
@@ -617,7 +617,7 @@ describe('Model', function() {
 
   describe('Model._getACLModel()', function() {
     it('should return the subclass of ACL', function() {
-      var Model = require('../').Model;
+      var Model = require('.').Model;
       var acl = ACL.extend('acl');
       Model._ACL(null); // Reset the ACL class for the base model
       var model = Model._ACL();

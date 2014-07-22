@@ -1,4 +1,4 @@
-var loopback = require('../');
+var loopback = require('.');
 var MyEmail;
 var assert = require('assert');
 

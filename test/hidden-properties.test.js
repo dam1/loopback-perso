@@ -1,4 +1,4 @@
-var loopback = require('../');
+var loopback = require('.');
 
 describe('hidden properties', function () {
   beforeEach(function (done) {
